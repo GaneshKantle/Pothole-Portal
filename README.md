@@ -64,4 +64,7 @@ Pothole-Portal is a crowdsourced road repair request platform that detects and r
 5. Open a Pull Request.
 
 ## 📬 Contact
-For queries or collaborations, reach out at [your-email@example.com].
+For any queries, feel free to reach out:
+- **Email:** ganeshkantle@gmail.com
+- **GitHub:** (https://github.com/ganeshkantle)
+- **My Bento:** (https://bento.me/kantle)
