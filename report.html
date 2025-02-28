@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Pothole</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                </ul>
+            </div>
+            <h1 class="navbar-title">PatchMyPath</h1>
+            <div class="navbar-right">
+                <ul>
+                    <li><a href="article.html">Articles</a></li>
+                    <li><a href="track.html">Track</a></li>
+                    <!-- <li><a href="login.html">Sign Up</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Report Form Section -->
+    <section id="report" class="report-section">
+        <h3>Report a Pothole</h3>
+        <form id="report-form">
+            <label for="location">Location:</label>
+            <input type="text" name="location" id="location" placeholder="Enter the location" required>
+            
+            <label for="severity">Severity:</label>
+            <select name="severity" id="severity" required>
+                <option value="">Select Severity</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            
+            <label for="imageFile">Upload Image:</label>
+            <input type="file" name="imageFile" id="imageFile" accept="image/*" capture="environment">
+            
+            <button type="submit">Submit Report</button>
+        </form>
+    </section>
+
+    <section id="map" class="map-section">
+        <h3>Pothole Map</h3>
+        <p>See reported potholes in your area below.</p>
+        <div class="map-container">
+            <!-- Placeholder for map integration -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996703.
+            3840401961!2d77.37859728774409!3d12.62354452544389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!
+            2sin!4v1731072930541!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <ul id="report-list"></ul>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PatchMyPath. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
