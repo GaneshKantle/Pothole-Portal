@@ -15,9 +15,9 @@ Pothole-Portal is a crowdsourced road repair request platform that detects and r
     ├── report.html
     ├── track.html
     ├── Images/
-         └── Graph
-         └── Repaired
-         └── Unrepaired
+         └── Graph.png
+         └── Repaired.png
+         └── Unrepaired.png
     ├── css/
     │   └── style.css
     └── js/
